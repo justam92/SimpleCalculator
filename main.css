@@ -1,0 +1,71 @@
+body{
+    /*Background pattern from subtlepatterns.com*/
+    background-image: url(img/random.png);
+    color: #fff;
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3{
+    position: absolute;
+    top: 40%;
+    left: 52%;
+    margin: -100px 0 0 -200px;
+    letter-spacing: 3px;
+}
+
+#container{
+    background:#b8bfc4;
+    width: 230px;
+    height: 290px;
+    padding: 20px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    margin: -100px 0 0 -200px;
+    border-radius: 20px;
+    border: 3px solid #94999e;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+#score
+{
+    width: 205px;
+    height: 30px;
+    background-color: #d1eeff;
+    padding: 10px;
+    font-size: 25px;
+    border: 2px solid #56b3ff;
+    border-radius: 10px;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+#buttons{
+    position: absolute;
+    left: 10%;
+}
+input[type=button]
+{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    background-color: lightgray
+    border: 2px solid gray;
+    border-radius: 10px;
+    -webkit-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
+    box-shadow: 2px 2px 5px 2px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+
+input[type=button]:hover
+{
+    background-color: darkgray;
+}
